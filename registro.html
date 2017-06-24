@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registro</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<style type="text/css">
+		#carousel{
+			width: 40%;
+			margin: auto;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<!-- Header -->
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-target="#navbar" data-toggle="collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>	
+				</button>
+
+				<a class="navbar-brand" href="index.html">
+					MI PIXULA SITE
+				</a>
+			</div>
+			
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="nav navbar-nav navbar-right" >
+					<li class="active">
+						<a href="index.html">Memes</a>
+					</li>
+					
+					<li class="dropdown">
+						<a href="">Productos
+							<span class="caret"></span>
+						</a>
+					</li>
+
+					<li>
+						<a href="">
+							Iniciar sesion
+							<span class="glyphicon glyphicon-user"></span>
+						</a>
+					</li>
+					<li>
+						<a href="registro.html">
+							Registrarse
+							<span class="glyphicon glyphicon-pencil"></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<div class="container">
+		<h2>Regristro máximo</h2>
+		<form action="#" method="post" accept-charset="utf-8" id="registro">
+			<div class="form-group">
+				<label for="marca">Marca:</label>
+				<input type="text" name="Marca" id="marca" placeholder="Ingrese Marca" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>¿Desea sexo?</label>
+				<select class="form-control">
+					<option>si</option>
+					<option>no</option>
+				</select>
+			</div>
+			<button type="button" class="btn btn-info btn-lg" data-target="#modal" data-toggle="modal">Guardar seleccion</button>
+		</form>
+	</div>
+
+	<div class="modal fade" id="modal" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					
+					<div class="modal-header">
+						<button type="button" data-dismiss="modal" class="close"> x</button>
+					</div>
+
+					<div class="modal-body">
+						<p>hola</p>
+					</div>
+					
+					<div class="modal-footer">
+						<button type="button" data-dismiss="modal" class="btn btn-danger">Hola puto</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+	<script
+	src="https://code.jquery.com/jquery-1.12.4.min.js"
+	integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+	crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
